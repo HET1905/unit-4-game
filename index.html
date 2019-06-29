@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link href="https://fonts.googleapis.com/css?family=Patua+One&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+    <title>Crystall Collector Game</title>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <h1>
+                Crystall Collector
+            </h1>
+        </header>
+        <section id="gameInfo">
+            <ul>
+                <li>
+                    You will be given a random number at the start of the game.
+                </li>
+                <li>
+                    There are four crystals below.By clicking on a crystal you will add a specific amount of points to
+                    your total scroe.
+                </li>
+                <li>
+                    You win the game by matching your total score to random number, you loose the game if your total
+                    scroe goes above random number.
+                </li>
+                <li>
+                    The value of each crystal is hidden from you until you click on it.
+                </li>
+                <li>
+                    Each time the game starts, the game will change the values of each crystal.
+                </li>
+            </ul>
+        </section>
+        <section id="numberSection">
+            <div id="randomNumberDiv" class="numberDisplay">
+                <h2 class="bottomBorderClass">
+                        Random Number :
+                </h2> 
+                <span id="txtRandomNumber" class="txtSpanClass"></span> 
+            </div>
+            <div id="resultDiv" class="numberDisplay">
+                <p id="restul"></p>
+                <p class="bottomBorderClass">Wins : <span id="txtWin" >0</span></p>
+                <p class="bottomBorderClass">Looses : <span id="txtLoose">0</span></p>
+            </div>
+        </section>
+        <section id="imgSection" class="clear">
+            <ul>
+                <li>img1</li>
+                <li>img2</li>
+                <li>img3</li>
+                <li>img4</li>
+            </ul>
+        </section>
+        <section id="totalScoreSection" class="numberDisplay">
+            <h2 class="bottomBorderClass">Your total score is :</h2>
+            <div id="scoreDiv">
+                <span id="txtScore" class="txtSpanClass"></span>
+            </div>
+        </section>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clear{
+    clear: both;
+}
+.bottomBorderClass{
+    border-bottom: 2px solid #000;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+body{
+    background: rgb(255, 195, 173);
+    font-size:1em;
+    color: #000;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+section{
+    padding:1%;
+    margin-top: 10px;
+}
+p{
+    width: 50%;
+    margin:auto auto;
+    margin-bottom: 10px;
+    padding:5px 2px;
+}
+h2{
+    font-family: 'Patua One', cursive ;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    text-align:center;
+    
+}
+/* ----------------Container Styling---------------- */
+#container{
+    width: 80%;
+    border:1px solid #000;
+    margin: auto auto;
+    margin-top:2%;
+    padding: 1%;
+}
+/* ---------------Header styling-------------- */
+header{
+    width: 80%;
+    margin: auto auto;
+    text-align: center;
+    background:rgb(248, 77, 77);
+    height: 50px;
+}
+header h1{
+    font-size: 2.5em;
+    font-family: 'Patua One', cursive;
+    letter-spacing: 2px;
+    color:#fff;
+    font-weight: bolder;
+    padding-top:0.5%;
+}
+/* -------------Game Info Styling-------------------------- */
+#gameInfo{
+    width: 80%;
+    margin:auto auto;
+    margin-top:15px;
+    background: rgb(240, 42, 42);
+    color:rgb(3, 23, 43);
+    font-size: 1.2em;
+}
+#gameInfo ul li{
+    margin-top:15px;
+    padding:5px 10px;
+}
+#gameInfo ul li:hover{
+    color:#fff;
+    cursor: pointer;
+}
+/* ----------------Number Section styling-------------------- */
+#numberSection{
+    width: 80%;
+    overflow: auto;
+    margin:auto auto;
+    text-align: center;
+    padding-left:0;
+    padding-right: 0;
+
+}
+.numberDisplay{
+    height: 100px;
+    
+    border:1px solid #000;
+    color:#000;
+    background: coral;
+}
+#randomNumberDiv{
+    width: 45%;
+    float: left;
+    
+}
+#resultDiv{
+    float:right;
+    width: 42%;
+}
+/* --------------totalScoreSection------------------------- */
+#totalScoreSection{
+    width:20%;
+    margin:auto auto; 
+}
+#totalScoreSection 
