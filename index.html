@@ -46,22 +46,22 @@
         <section id="numberSection">
             <div id="randomNumberDiv" class="numberDisplay">
                 <h2 class="bottomBorderClass">
-                        Random Number :
-                </h2> 
-                <span id="txtRandomNumber" class="txtSpanClass"></span> 
+                    Random Number :
+                </h2>
+                <span id="txtRandomNumber" class="txtSpanClass"></span>
             </div>
             <div id="resultDiv" class="numberDisplay">
                 <p id="restul"></p>
-                <p class="bottomBorderClass">Wins : <span id="txtWin" >0</span></p>
-                <p class="bottomBorderClass">Looses : <span id="txtLoose">0</span></p>
+                <p class="bottomBorderClass">Wins : <span id="txtWin"></span></p>
+                <p class="bottomBorderClass">Looses : <span id="txtLoose"></span></p>
             </div>
         </section>
         <section id="imgSection" class="clear">
             <ul>
-                <li><img src="assets/images/gem1.png"  width ="100" height="100" alt="gem1"></li>
-                <li><img src="assets/images/gem2.jpg"  width ="100" height="100" alt="gem2"></li>
-                <li><img src="assets/images/gem3.jpg"  width ="100" height="100" alt="gem3"></li>
-                <li><img src="assets/images/gem4.jpg"  width ="100" height="100" alt="gem4"></li>
+                <li><img id="gem1" src="assets/images/gem1.png" width="100" height="100" alt="gem1"></li>
+                <li><img id="gem2" src="assets/images/gem2.jpg" width="100" height="100" alt="gem2"></li>
+                <li><img id="gem3" src="assets/images/gem3.jpg" width="100" height="100" alt="gem3"></li>
+                <li><img id="gem4" src="assets/images/gem4.jpg" width="100" height="100" alt="gem4"></li>
             </ul>
         </section>
         <section id="totalScoreSection" class="numberDisplay">
@@ -72,6 +72,10 @@
         </section>
 
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="assets/js/game.js"></script>
 </body>
 
 </html>
