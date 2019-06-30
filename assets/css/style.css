@@ -107,4 +107,13 @@ header h1{
     width:20%;
     margin:auto auto; 
 }
-#totalScoreSection 
+/* ---------------------imgSection----------------------------- */
+#imgSection{
+    width: 80%;
+    margin:auto auto;
+    text-align: center;
+}
+
+#imgSection ul li{
+    display: inline;
+}
