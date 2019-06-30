@@ -30,7 +30,8 @@ p{
 }
 span{
     display: inline-block;
-    padding-top: 10px;
+    padding-top: 2px;
+    font-weight: bolder;
 }
 h2{
     font-family: 'Patua One', cursive ;
@@ -105,7 +106,20 @@ header h1{
 #resultDiv{
     float:right;
     width: 42%;
+
 }
+#resultDiv p:first-child{
+    color:red;
+    font-size: 1.2em;
+    /* animation-name: example; */
+    /* animation-duration: 4s; */
+}
+/* @keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  } */
+
+
 /* --------------totalScoreSection------------------------- */
 #totalScoreSection{
     width:30%;
