@@ -29,3 +29,6 @@ function generateRandomNum() {
     return randomNumber;
 }
 ```
+## Installation
+* No installation needed to play this game. 
+* Just open the link in your browser and play until you get boared !!!
