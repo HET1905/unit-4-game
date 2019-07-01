@@ -31,4 +31,20 @@ function generateRandomNum() {
 ```
 ## Installation
 * No installation needed to play this game. 
-* Just open the link in your browser and play until you get boared !!!
+* Just open the below link in your browser and play until you get bored !!! :relaxed:
+ https://het1905.github.io/unit-4-game/
+
+ ## How to play
+
+ 1. At the begining of the game a random number will be generated.
+ 2. You have four crystals. Each crystal has different random value.
+ 3. Each time you click on crytal will add the value of that crystal to your total score.
+ 4. If your score match the random number you will win otherwise you loose.
+ 5. Each time you win or loose game will,a new random number and new different random values for crystals will be generated automatically.
+ 6. Isn't it easy to play. Have fun.
+
+ 
+## License
+Designed and developed by Hetal Patel
+
+MIT © [Hetal Patel]()
