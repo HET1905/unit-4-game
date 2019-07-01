@@ -1,4 +1,4 @@
-##Crystal Collector Game
+## Crystal Collector Game
 This is a game to collect crystals. If your total score same as the random number than you will win otherwise you loose. 
 
 ## Technology used
@@ -20,4 +20,12 @@ This is a game to collect crystals. If your total score same as the random numbe
 * Game Console Look:
 ![alt text](https://github.com/HET1905/unit-4-game/blob/master/assets/images/screenShot2.png "Game Console")
 
-
+## Code
+``` Javascript
+function generateRandomNum() {
+    var max = 121;
+    var min = 19;
+    randomNumber = Math.floor((Math.random() * (max - min)) + min);
+    return randomNumber;
+}
+```
